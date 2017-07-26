@@ -1,0 +1,25 @@
+{
+  "name": "license-plate-reader",
+  "version": "1.0.0",
+  "description": "api for processing video with license plates and returning numbers and confidence levels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipbrennan90/lpr-api.git"
+  },
+  "author": "Ian Brennan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipbrennan90/lpr-api/issues"
+  },
+  "homepage": "https://github.com/ipbrennan90/lpr-api#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-fileupload": "^0.1.4",
+    "node-openalpr": "^1.1.1",
+    "tmp": "0.0.31"
+  }
+}
